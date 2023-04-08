@@ -162,21 +162,22 @@
             // 
             // lblCorI
             // 
-            lblCorI.AutoSize = true;
-            lblCorI.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
-            lblCorI.Location = new Point(4, 11);
+            lblCorI.Dock = DockStyle.Fill;
+            lblCorI.Font = new Font("Segoe UI", 48F, FontStyle.Regular, GraphicsUnit.Point);
+            lblCorI.Location = new Point(0, 0);
             lblCorI.Name = "lblCorI";
-            lblCorI.Size = new Size(105, 45);
+            lblCorI.Size = new Size(799, 449);
             lblCorI.TabIndex = 0;
             lblCorI.Text = "label1";
+            lblCorI.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(pnlCorI);
             Controls.Add(pnlStudy);
+            Controls.Add(pnlCorI);
             Controls.Add(pnlMain);
             Controls.Add(pnlTest);
             Name = "Form1";
@@ -187,7 +188,6 @@
             pnlStudy.ResumeLayout(false);
             pnlStudy.PerformLayout();
             pnlCorI.ResumeLayout(false);
-            pnlCorI.PerformLayout();
             ResumeLayout(false);
         }
 
