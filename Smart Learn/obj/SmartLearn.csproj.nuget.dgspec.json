@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bkenk\\source\\coreapps\\web server application\\visual studio\\SmartLearn\\SmartLearn.csproj": {}
+    "C:\\Users\\Bkenk\\GitHub\\Personal\\SmartLearn\\Smart Learn\\SmartLearn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bkenk\\source\\coreapps\\web server application\\visual studio\\SmartLearn\\SmartLearn.csproj": {
+    "C:\\Users\\Bkenk\\GitHub\\Personal\\SmartLearn\\Smart Learn\\SmartLearn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bkenk\\source\\coreapps\\web server application\\visual studio\\SmartLearn\\SmartLearn.csproj",
+        "projectUniqueName": "C:\\Users\\Bkenk\\GitHub\\Personal\\SmartLearn\\Smart Learn\\SmartLearn.csproj",
         "projectName": "SmartLearn",
-        "projectPath": "C:\\Users\\Bkenk\\source\\coreapps\\web server application\\visual studio\\SmartLearn\\SmartLearn.csproj",
+        "projectPath": "C:\\Users\\Bkenk\\GitHub\\Personal\\SmartLearn\\Smart Learn\\SmartLearn.csproj",
         "packagesPath": "C:\\Users\\Bkenk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bkenk\\source\\coreapps\\web server application\\visual studio\\SmartLearn\\obj\\",
+        "outputPath": "C:\\Users\\Bkenk\\GitHub\\Personal\\SmartLearn\\Smart Learn\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bkenk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

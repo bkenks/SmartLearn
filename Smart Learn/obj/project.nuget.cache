@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JIrNaK7xl8SRM0zUT53WzV0tdsauLoILw1kULdJhDoeS9c5i/WBLi+arEq+lxusAlqF/LCaHM54Pi8021t15Cg==",
+  "dgSpecHash": "nHj9YS2b4v4ihfc/QNbdc6aglVUM1/Qsc0zDGkDIDn7OttOqy6Dc9E8ZC3bPdBumYUL0fpNWjkkYb+ASDD0w9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bkenk\\source\\coreapps\\web server application\\visual studio\\SmartLearn\\SmartLearn.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Bkenk\\GitHub\\Personal\\SmartLearn\\Smart Learn\\SmartLearn.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bkenk\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
